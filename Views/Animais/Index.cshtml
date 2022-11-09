@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Animais";
+}
+
+<body>
+    <h1>Lista Geral de Animais</h1>
+
+    <hr>
+    <p><b>Essa lista contém animais que já foram adotados e animais que ainda estão para adoção</b></p>
+    <br>
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Gênero</th>
+                <th>Idade</th>
+                <th>Tipo</th>
+                <th>Raça</th>
+                <th>Porte</th>
+                <th>Castrado</th>
+                <th>Cliente(id)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Babidi</td>
+                <td>Macho</td>
+                <td>1 ano</td>
+                <td>Gato</td>
+                <td>ViraLata</td>
+                <td>Médio</td>
+                <td>Não</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rogério</td>
+                <td>Macho</td>
+                <td>3 anos</td>
+                <td>Cachorro</td>
+                <td>Pug</td>
+                <td>Médio</td>
+                <td>Sim</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Luna</td>
+                <td>Femea</td>
+                <td>5 meses</td>
+                <td>Gato</td>
+                <td>Persa</td>
+                <td>Pequeno</td>
+                <td>Não</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+
+
+<style>
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #f2b749;
+}
+
+.content-table thead tr {
+    background-color: #f2b749;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ff9800;
+}
+
+</style>

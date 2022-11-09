@@ -15,8 +15,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Arq\Códigos Livres\gitclones\Sigma_Pets
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Arq/Códigos Livres/gitclones/Sigma_Pets/Views/Home/Animais.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbmltYWlzLmNzaHRtbA==
+[D:/Arq/Códigos Livres/gitclones/Sigma_Pets/Views/Animais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Arq/Códigos Livres/gitclones/Sigma_Pets/Views/Home/Clientes.cshtml]

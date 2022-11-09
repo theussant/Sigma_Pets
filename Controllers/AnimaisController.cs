@@ -1,32 +1,19 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Sigma_Pets.Models;
 
 namespace Sigma_Pets.Controllers;
 
-public class HomeController : Controller
+public class AnimaisController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<AnimaisController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public AnimaisController(ILogger<AnimaisController> logger)
     {
         _logger = logger;
     }
 
     public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Produtos()
-    {
-        return View();
-    }
-    public IActionResult Servicos()
-    {
-        return View();
-    }
-    public IActionResult Clientes()
     {
         return View();
     }
