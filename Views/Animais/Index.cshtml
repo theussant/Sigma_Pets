@@ -2,7 +2,7 @@
     ViewData["Title"] = "Animais";
 }
 
-<body>
+<div class="animais-container">
     <h1>Lista Geral de Animais</h1>
 
     <hr>
@@ -20,6 +20,7 @@
                 <th>Porte</th>
                 <th>Castrado</th>
                 <th>Cliente(id)</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -33,7 +34,14 @@
                 <td>Médio</td>
                 <td>Não</td>
                 <td>3</td>
+                <td>
+                    <div>
+                        <a role="button"></a><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png" style= height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png" style= height="32" width="32"></a>
+                    </div>
+                </td>
             </tr>
+
             <tr>
                 <td>2</td>
                 <td>Rogério</td>
@@ -44,6 +52,12 @@
                 <td>Médio</td>
                 <td>Sim</td>
                 <td>1</td>
+                <td>
+                    <div>
+                        <a role="button"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png" style= height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png" style= height="32" width="32"></a>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td>3</td>
@@ -55,50 +69,66 @@
                 <td>Pequeno</td>
                 <td>Não</td>
                 <td>2</td>
+                <td>
+                    <div>
+                        <a role="button"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png" style= height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png" style= height="32" width="32"></a>
+                    </div>
+                </td>
             </tr>
         </tbody>
     </table>
-</body>
+
+    <a role="button" class="btn btn-warning">Voltar</a>
+    <a role="button" class="btn btn-success">Cadastrar novo animal</a>
+
+</div>
+
+<div class="animais-container-second">
+
+</div>
 
 
 
 <style>
-* {
-    /* Change your font family */
-    font-family: sans-serif;
-}
-.content-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    min-width: 400px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px #f2b749;
-}
+    * {
+        /* Change your font family */
+        font-family: sans-serif;
+    }
 
-.content-table thead tr {
-    background-color: #f2b749;
-    color: #ffffff;
-    text-align: left;
-    font-weight: bold;
-}
+    .content-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px #f2b749;
+    }
 
-.content-table th,
-.content-table td {
-    padding: 12px 15px;
-}
+    .content-table thead tr {
+        background-color: #f2b749;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+    }
 
-.content-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-}
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
 
-.content-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
 
-.content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #ff9800;
-}
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid #ff9800;
+    }
+
 
 </style>

@@ -13,6 +13,11 @@ html {
   min-height: 100%;
 }
 
-body {
+/* body {
   margin-bottom: 60px;
+  background-image: linear-gradient(#f2b749, #ff9800);
 }
+
+.animais-container{
+  background-color: beige;
+} */
