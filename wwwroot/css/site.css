@@ -2,6 +2,12 @@ html {
   font-size: 14px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -15,4 +21,13 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-image: linear-gradient(#f2b749, #ff9800);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100vh;
+  flex-direction: column;
+  gap: 30px;
 }
+
+

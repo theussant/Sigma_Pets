@@ -1,0 +1,217 @@
+﻿@{
+    ViewData["Title"] = "Animais";
+}
+
+<div class="animais-container">
+    <h1>Lista Geral de Animais</h1>
+
+    <hr>
+    <p><b>Essa lista contém animais que já foram adotados e animais que ainda estão para adoção</b></p>
+    <br>
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Gênero</th>
+                <th>Idade</th>
+                <th>Tipo</th>
+                <th>Raça</th>
+                <th>Porte</th>
+                <th>Castrado</th>
+                <th>Cliente(id)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Babidi</td>
+                <td>Macho</td>
+                <td>1 ano</td>
+                <td>Gato</td>
+                <td>ViraLata</td>
+                <td>Médio</td>
+                <td>Não</td>
+                <td>3</td>
+                <td>
+                    <div>
+                        <a role="button"></a><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                            style=height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                                style=height="32" width="32"></a>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Rogério</td>
+                <td>Macho</td>
+                <td>3 anos</td>
+                <td>Cachorro</td>
+                <td>Pug</td>
+                <td>Médio</td>
+                <td>Sim</td>
+                <td>1</td>
+                <td>
+                    <div>
+                        <a role="button"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                                style=height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                                style=height="32" width="32"></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Luna</td>
+                <td>Femea</td>
+                <td>5 meses</td>
+                <td>Gato</td>
+                <td>Persa</td>
+                <td>Pequeno</td>
+                <td>Não</td>
+                <td>2</td>
+                <td>
+                    <div>
+                        <a role="button"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                                style=height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                                style=height="32" width="32"></a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <a role="button" class="button">Voltar</a>
+    <a role="button" class="button-green">Cadastrar novo animal</a>
+
+</div>
+
+<div class="animais-container-second">
+    <div class="imagem-dog">
+        <img src="https://images.pexels.com/photos/10122494/pexels-photo-10122494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style= height="600" width="300">
+    </div>
+    <article>LOREM KASDKAJSKDJASKDJASKJ</article>
+</div>
+
+
+
+<style>
+    * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .content-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px #f2b749;
+    }
+
+    .content-table thead tr {
+        background-color: #f2b749;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }    .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid #ff9800;
+    }
+
+    .button {
+        background-color: #f2b749;
+        transition-duration: 0.4s;
+        border: none;
+        color: white;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .button:active {
+        background-color: #f2b749;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button:hover {
+        background-color: #ff9800;
+        color: #ffffff
+    }
+
+    .button-green {
+        background-color: #8bc34a;
+        transition-duration: 0.4s;
+        border: none;
+        color: white;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .button-green:active {
+        background-color: #41B068;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button-green:hover {
+        background-color: #41B068;
+        color: #ffffff
+    }
+
+    .animais-container{
+  display: flexbox;
+  padding: 1cm;
+  border-radius: 2%;
+  background-color: #ffff;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+} 
+.animais-container-second{
+  display: flexbox;
+  padding: 1cm;
+  border-radius: 2%;
+  background-color: #ffff;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+} 
+
+</style>
