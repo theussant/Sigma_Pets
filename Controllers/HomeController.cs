@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Sigma_Pets.Models;
+using SigmaPets.Models;
 
-namespace Sigma_Pets.Controllers;
+namespace SigmaPets.Controllers;
 
 public class HomeController : Controller
 {
@@ -13,23 +13,17 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Obrigado()
     {
         return View();
     }
 
-    public IActionResult Produtos()
+    public IActionResult Contatos()
     {
         return View();
     }
-    public IActionResult Servicos()
-    {
-        return View();
-    }
-    public IActionResult Clientes()
-    {
-        return View();
-    }
+
+    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

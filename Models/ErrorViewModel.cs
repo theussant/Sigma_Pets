@@ -1,4 +1,4 @@
-namespace Sigma_Pets.Models;
+namespace SigmaPets.Models;
 
 public class ErrorViewModel
 {
