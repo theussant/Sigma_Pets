@@ -13,12 +13,12 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Obrigado()
+    public IActionResult AlterarCadastro()
     {
         return View();
     }
 
-    public IActionResult Contatos()
+    public IActionResult ExcluirCadastro()
     {
         return View();
     }

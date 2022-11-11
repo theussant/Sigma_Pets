@@ -1,0 +1,138 @@
+﻿<style> 
+   *{
+    margin: 0;
+    padding: 0;
+    }
+
+    .alterar-container{
+        background-color: white;
+        width:900px;
+        height: 450px;
+        margin: auto;
+        margin-top: 5%;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .alterar-texto{
+        margin-top: 3%;
+        margin-left: 20%;
+    }
+
+    article > h1{
+        margin-left: 2%;
+    }
+
+    article >p{
+        font-size: 1.2em;
+        margin-top: 2%;
+    }
+
+    .content-table {
+        border-collapse: collapse;
+        margin: auto;
+        margin-top: 5%;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px #f2b749;
+    }
+
+    .content-table thead tr {
+        background-color: #f2b749;
+        color: #000000;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }  
+
+      .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid #ff9800;
+    }
+
+    .btn-voltar{
+    background-color: #f2b749;
+    width:170px;
+    height:50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 25%;
+    font-size: 1.2em;
+    font-weight: bold;   
+    }
+
+    .btn-alterar{
+    background-color: #8bc34a;
+    width:170px;
+    height:50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 1.2em;
+    font-weight: bold;   
+    }
+ 
+</style>
+
+<main>
+    <section class="alterar-container">
+        <article class="alterar-texto">
+            <h1>Deseja alterar esse registro?</h1>
+                <p>A ação de alteração não pode ser desfeita depois de executada!</p>
+        </article>
+        <article class="alterar-tabela">
+            <table class="content-table">
+                <thead>
+                    <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Gênero</th>
+                    <th>Idade</th>
+                    <th>Tipo</th>
+                    <th>Raça</th>
+                    <th>Porte</th>
+                    <th>Castrado</th>
+                    <th>Cliente(id)</th>
+                    <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Babidi</td>
+                    <td>Macho</td>
+                    <td>1 ano</td>
+                    <td>Gato</td>
+                    <td>ViraLata</td>
+                    <td>Médio</td>
+                    <td>Não</td>
+                    <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+       <a><button class="btn-voltar">Voltar</button></a>
+       <a><button class="btn-alterar">Alterar registro</button></a>
+    </section>
+</main>
+
+
+
+
+
+

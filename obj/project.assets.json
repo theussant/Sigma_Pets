@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\SigmaPets\\SigmaPets.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\SigmaPets.csproj",
       "projectName": "SigmaPets",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\SigmaPets\\SigmaPets.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\SigmaPets.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\SigmaPets\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
