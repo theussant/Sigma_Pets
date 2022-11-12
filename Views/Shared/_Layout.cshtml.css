@@ -46,3 +46,18 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 100px;
 }
+
+.container-nav {
+  margin-left: auto;
+}
+
+.nav-item:hover {
+  background-color: #f2b749;
+  border-radius: 15px;
+}
+
+h6 {
+  margin-top: auto;
+  padding-bottom: 5px;
+}
+

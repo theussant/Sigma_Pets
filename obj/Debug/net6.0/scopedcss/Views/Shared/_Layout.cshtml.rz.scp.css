@@ -46,3 +46,18 @@ button.accept-policy[b-sfkoxjhdrx] {
   white-space: nowrap;
   line-height: 100px;
 }
+
+.container-nav[b-sfkoxjhdrx] {
+  margin-left: auto;
+}
+
+.nav-item:hover[b-sfkoxjhdrx] {
+  background-color: #f2b749;
+  border-radius: 15px;
+}
+
+h6[b-sfkoxjhdrx] {
+  margin-top: auto;
+  padding-bottom: 5px;
+}
+
