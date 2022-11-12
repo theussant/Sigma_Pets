@@ -1,8 +1,208 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Servicos";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="animais-container">
+    <h1>Lista Geral de Serviços</h1>
+
+    <hr>
+    <p><b>Essa lista contém os serviços que já foram feitos e os que ainda estão pendentes</b></p>
+    <br>
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Tipo</th>
+                <th>Valor</th>
+                <th>Animal(ID)</th>
+                <th>Cliente(ID)</th>
+                <th>Funcionário(ID)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Banho completo</td>
+                <td>Limpeza</td>
+                <td>R$100.00</td>
+                <td>1</td>
+                <td>3</td>
+                <td>1</td>
+                <td>
+                    <div>
+                        <a role="button"></a><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                            style=height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                                style=height="32" width="32"></a>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Tosa completa</td>
+                <td>Tosa</td>
+                <td>R$70.00</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>
+                    <div>
+                        <a role="button"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                                style=height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                                style=height="32" width="32"></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Venda de coleira</td>
+                <td>Utilidade</td>
+                <td>R$50.00</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>
+                    <div>
+                        <a role="button"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                                style=height="32" width="32"></a>
+                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                                style=height="32" width="32"></a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <a role="button" class="button">Voltar</a>
+    <a role="button" class="button-green">Cadastrar novo serviço</a>
+
 </div>
+
+<div class="animais-container-second">
+    <div class="imagem-dog">
+        <img src="https://www.petz.com.br/blog/wp-content/uploads/2021/03/como-dar-banho-em-cachorro2.jpg" style= height="600" width="300">
+    </div>
+    <article>Ulalau</article>
+</div>
+
+
+<style>
+    * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .content-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px #f2b749;
+    }
+
+    .content-table thead tr {
+        background-color: #f2b749;
+        color: #000000;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }    .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid #ff9800;
+    }
+
+    .button {
+        background-color: #f2b749;
+        transition-duration: 0.4s;
+        border: none;
+        color: white;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .button:active {
+        background-color: #f2b749;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button:hover {
+        background-color: #ff9800;
+        color: #ffffff
+    }
+
+    .button-green {
+        background-color: #8bc34a;
+        transition-duration: 0.4s;
+        border: none;
+        color: white;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
+    .button-green:active {
+        background-color: #41B068;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button-green:hover {
+        background-color: #41B068;
+        color: #ffffff
+    }
+
+    .animais-container{
+  display: flexbox;
+  padding: 1cm;
+  border-radius: 2%;
+  background-color: #ffff;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+} 
+.animais-container-second{
+  display: flexbox;
+  padding: 1cm;
+  border-radius: 2%;
+  background-color: #ffff;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+} 
+
+</style>
