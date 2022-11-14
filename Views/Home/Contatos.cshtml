@@ -1,0 +1,121 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section.contato-container-1 {
+        background-color: white;
+        margin: auto;
+        margin-top: 5%;
+        width: 1100px;
+        height: 450px;
+        border: 2px solid black;
+        border-radius: 15px;
+        box-shadow: 1px 1px 1px 1px black;
+    }
+
+    h1 {
+        margin-top: 2%;
+        margin-left: 2%;
+        font-size: 2.0em;
+    }
+
+    textarea {
+        width: 350px;
+        height: 150px;
+        margin-top: 4%;
+        margin-left: 2%;
+        font-size: 1.0em;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-green {
+        background-color: #8bc34a;
+        width: 150px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+        margin-top: 4%;
+        margin-left: 20%;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .button-green:active {
+        background-color: #41B068;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button-green:hover {
+        background-color: #41B068;
+        color: #ffffff
+    }
+
+    .button {
+        background-color: #f2b749;
+        transition-duration: 0.4s;
+        border: none;
+        color: black;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 15px;
+        width: 150px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-top: -4.5%;
+        margin-left: 2%;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .button:active {
+        background-color: #f2b749;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button:hover {
+        background-color: #ff9800;
+        color: #ffffff
+    }
+</style>
+
+<main>
+    <section class="contato-container-1">
+        <article class="imagem-1">
+
+        </article>
+        <article class="caixa-mensagem">
+            <h1>Mande sua Mensagem!</h1>
+            <form action="https://formsubmit.co/uriel.oliveira@ba.estudante.senai.br" method="POST"
+                class="formulario-contato">
+                <textarea placeholder="Digite sua mensagem" name="mensagem" id="mensagem" minlength=20 maxlength=255>
+                    </textarea>
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://localhost:7093/Obrigado.cshtml">
+
+                <button class="button-green" type="submit" asp-controller="Home" asp-action="Obrigado">Enviar</button>
+                <a role="button" class="button" asp-controller="Home" asp-action="Index">Voltar</a>
+            </form>
+        </article>
+    </section>
+</main>

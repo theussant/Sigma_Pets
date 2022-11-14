@@ -17,6 +17,14 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Obrigado()
+    {
+        return View();
+    }
+    public IActionResult Contatos()
+    {
+        return View();
+    }
 
     public IActionResult Produtos()
     {
