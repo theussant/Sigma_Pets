@@ -1,0 +1,167 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .excluir-container {
+        background-color: white;
+        width: 900px;
+        height: 450px;
+        margin: auto;
+        margin-top: 5%;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+    .excluir-texto {
+        margin-top: 3%;
+        margin-left: 20%;
+    }
+
+    article>h1 {
+        margin-left: 2%;
+    }
+
+    article>p {
+        font-size: 1.2em;
+        margin-top: 2%;
+    }
+
+    .content-table {
+        border-collapse: collapse;
+        margin: auto;
+        margin-top: 5%;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px #f2b749;
+    }
+
+    .content-table thead tr {
+        background-color: #f2b749;
+        color: #000000;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid #ff9800;
+    }
+
+    .btn-excluir {
+        background-color: #f44336;
+        width: 170px;
+        height: 50px;
+        border: none;
+        color: black;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 1.2em;
+        font-weight: bold;
+        transition-duration: 0.4s;
+        padding: 8px 32px;
+    }
+
+    .btn-excluir:active {
+        background-color: #FF6973;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .btn-excluir:hover {
+        background-color: #D0191D;
+        color: #ffffff
+    }
+
+    .button {
+        background-color: #f2b749;
+        transition-duration: 0.4s;
+        border: none;
+        color: black;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 15px;
+        width: 150px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-top: 10%;
+        margin-left: 25%;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .button:active {
+        background-color: #f2b749;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button:hover {
+        background-color: #ff9800;
+        color: #ffffff
+    }
+</style>
+
+<main>
+    <section class="excluir-container">
+        <article class="excluir-texto">
+            <h1>Deseja excluir esse registro?</h1>
+            <p>A ação de exclusão não pode ser desfeita depois de executada!</p>
+        </article>
+        <article class="alterar-tabela">
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                        <th>Animal(ID)</th>
+                        <th>Cliente(ID)</th>
+                        <th>Funcionário(ID)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Banho completo</td>
+                        <td>Limpeza</td>
+                        <td>R$100.00</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <a role="button" class="button" asp-controller="Servicos" asp-action="Index">Voltar</a>
+        <a role="button" class="btn-excluir">Excluir registro</a>
+    </section>
+</main>

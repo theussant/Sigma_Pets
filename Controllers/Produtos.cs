@@ -17,6 +17,14 @@ public class ProdutosController : Controller
     {
         return View();
     }
+    public IActionResult Alterar()
+    {
+        return View();
+    }
+    public IActionResult VerificarExcluir()
+    {
+        return View();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

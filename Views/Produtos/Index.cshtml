@@ -36,10 +36,10 @@
                 <td>1234096842</td>
                 <td>
                     <div>
-                        <a role="button"></a><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                        <a role="button" asp-controller="Produtos" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
                             style=height="32" width="32"></a>
-                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
-                                style=height="32" width="32"></a>
+                        <a role="button" asp-controller="Produtos" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                            style=height="32" width="32"></a>
                     </div>
                 </td>
             </tr>
@@ -56,9 +56,9 @@
                 <td>1524836802</td>
                 <td>
                     <div>
-                        <a role="button"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                        <a role="button" asp-controller="Produtos" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
                                 style=height="32" width="32"></a>
-                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                        <a role="button" asp-controller="Produtos" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
                                 style=height="32" width="32"></a>
                     </div>
                 </td>
@@ -75,9 +75,9 @@
                 <td>1086365680</td>
                 <td>
                     <div>
-                        <a role="button"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                        <a role="button" asp-controller="Produtos" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
                                 style=height="32" width="32"></a>
-                        <a role="button"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                        <a role="button" asp-controller="Produtos" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
                                 style=height="32" width="32"></a>
                     </div>
                 </td>
@@ -87,7 +87,7 @@
 
     <br>
 
-    <a role="button" class="button">Voltar</a>
+    <a role="button" class="button" asp-controller="Home" asp-action="Index">Voltar</a>
     <a role="button" class="button-green">Cadastrar novo produto</a>
 
 </div>
@@ -118,6 +118,7 @@
         margin: 25px 0;
         font-size: 0.7em;
         min-width: 400px;
+        width: 850px;
         border-radius: 5px 5px 0 0;
         overflow: hidden;
         box-shadow: 0 0 20px #f2b749;

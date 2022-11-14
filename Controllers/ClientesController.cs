@@ -13,7 +13,15 @@ public class ClientesController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+     public IActionResult Index()
+    {
+        return View();
+    }
+    public IActionResult Alterar()
+    {
+        return View();
+    }
+    public IActionResult VerificarExcluir()
     {
         return View();
     }
