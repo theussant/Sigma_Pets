@@ -1,29 +1,22 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SigmaPets.Models;
 
 namespace SigmaPets.Controllers;
 
-public class HomeController : Controller
+public class ExcluirController:Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<ExcluirController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public ExcluirController(ILogger<ExcluirController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult AlterarCadastro()
+    public IActionResult Index()
     {
         return View();
     }
-
-    public IActionResult ExcluirCadastro()
-    {
-        return View();
-    }
-
-    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

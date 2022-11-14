@@ -15,12 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Home/AlterarCadastro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbHRlcmFyQ2FkYXN0cm8uY3NodG1s
+[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/AlterarCadastro/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0ZXJhckNhZGFzdHJvXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Home/ExcluirCadastro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeGNsdWlyQ2FkYXN0cm8uY3NodG1s
+[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/ExcluirCadastro/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjbHVpckNhZGFzdHJvXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Shared/Error.cshtml]
