@@ -1,0 +1,236 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cadastrar-container {
+        display: flexbox;
+        padding: 1cm;
+        border-radius: 2%;
+        background-color: #ffff;
+        justify-content: center;
+        border: 2px solid black;
+        align-items: center;
+        height: 100vh;
+        min-height: 100vh;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-four {
+        display: flexbox;
+        padding: 1cm;
+        border-radius: 2%;
+        border: 2px solid black;
+        background-color: #ffff;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        min-height: 100vh;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .barra-de-progresso {
+        width: 100px;
+        height: 20px;
+        margin: 5%;
+        border: medium solid black;
+        background: linear-gradient(to right, green 0%, green 20%, grey 20%);
+    }
+
+    .button {
+        background-color: #f2b749;
+        transition-duration: 0.4s;
+        color: black;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 170px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-top: 10%;
+        margin-left: 25%;
+        font-size: 1.2em;
+        font-weight: bold;
+        
+    }
+
+    .button-voltar {
+        background-color: #f2b749;
+        width: 170px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 11px 35px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+
+        position: absolute;
+        left: 60vh;
+        bottom: -100px;
+        right: 100vh;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .button:active {
+        background-color: #f2b749;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button:hover {
+        background-color: #ff9800;
+        color: #ffffff
+    }
+
+    .button-voltar:active {
+        background-color: #f2b749;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button-voltar:hover {
+        background-color: #ff9800;
+        color: #ffffff
+    }
+
+    .button-green {
+        background-color: #8bc34a;
+        width: 170px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 11px 35px;
+        text-align: center;
+        text-decoration: none;
+
+        position: absolute;
+        left: 90vh;
+        bottom: -100px;
+        right: 100vh;
+    }
+
+
+    .button-green:active {
+        background-color: #41B068;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button-green:hover {
+        background-color: #41B068;
+        color: #ffffff
+    }
+
+    form {
+        display: flexbox;
+        padding: 1cm;
+        border-radius: 2%;
+        background-color: #ffff;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        min-height: 50vh;
+        flex-direction: column;
+        position: absolute;
+        padding-top: 0px;
+    }
+/* 
+    .buttons-container {
+        position: absolute;
+        left: 90vh;
+        bottom: -100px;
+        right: 100vh;
+    } */
+
+</style>
+
+<div class="cadastrar-container">
+
+    <div>
+        <img align="right"
+            src="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/a808f674e33cceb3b567fbf3199662162b385fadd9f0d8b42f7bdd4558943c00_1.jpg"
+            alt="babidi" width="250" height="300">
+    </div>
+
+    <form>
+        <legend>Cadastrando novos Produtos!</legend>
+
+        <div class="form-floating mb-3">
+            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Nome">
+            <label for="floatingInput">Nome</label>
+        </div>
+        <br>
+        <div class="form-floating">
+            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Marca">
+            <label for="floatingPassword">Marca</label>
+        </div>
+        <br>
+        <div class="form-floating mb-3">
+            <input style="width:50vh;" type="date" class="form-control" id="floatingInput" placeholder="Data de Fabricação">
+            <label for="floatingInput">Data de fabricação</label>
+        </div>
+        <br>
+        <div class="form-floating">
+            <input style="width:50vh;" type="date" class="form-control" id="floatingInput" placeholder="Data de validade">
+            <label for="floatingPassword">Data de validade</label>
+        </div>
+        <br>
+        <div class="form-floating mb-3">
+            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Funcionalidade">
+            <label for="floatingInput">Funcionalidade</label>
+        </div>
+        <br>
+        <div class="form-floating">
+            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Fornecedor(CNPJ)">
+            <label for="floatingPassword">Fornecedor(CNPJ)</label>
+        </div>
+
+        <br>
+        <div class="form-floating">
+            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Código de barra">
+            <label for="floatingPassword">Código de barra</label>
+        </div>
+        <br>
+
+    
+        <a role="button" class="button-voltar" asp-controller="Produtos" asp-action="Index">Voltar</a>
+        <a role="button" class="button-green">Cadastrar</a>
+       
+
+    </form>
+
+</div>
+
+<br>
+
+<div class="container-four">
+    <img src="https://images.pexels.com/photos/10122494/pexels-photo-10122494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="babidi" width="250" height="250">
+    <div align="right">
+        <h2>E aí! O que achou?</h2>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
+        <a role="button" class="button">Veja Mais!</a>
+    </div>
+</div>
