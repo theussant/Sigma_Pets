@@ -96,14 +96,18 @@
 
 <br>
 
-<div class="container-four">
-    <img src="https://images.pexels.com/photos/10122494/pexels-photo-10122494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        alt="babidi" width="250" height="250">
-    <div align="right">
+<div class="container-five">
+    <img class="img-animais" src="https://images.pexels.com/photos/10122494/pexels-photo-10122494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Cachorro" width="250" height="250">
+    <div class="container">
         <h2>E aí! O que achou?</h2>
+        <br>
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
-        <a role="button" class="button">Veja Mais!</a>
+            <br>
+            <br>
+            <br>
+        <a role="button" class="button-two">Veja Mais!</a>
     </div>
 </div>
 
@@ -164,6 +168,20 @@
         font-size: 15px;
     }
 
+    .button-two {
+        background-color: #f2b749;
+        transition-duration: 0.4s;
+        border: 2px solid black;
+        color: black;
+        font-weight: bold;
+        padding: 12px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
     .button:active {
         background-color: #f2b749;
         box-shadow: 0 5px #666;
@@ -203,7 +221,7 @@
     .animais-container {
         display: flexbox;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         border: 2px solid black;
         background-color: #ffff;
         justify-content: center;
@@ -217,7 +235,7 @@
     .animais-container-second {
         display: flexbox;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         border: 2px solid black;
         background-color: #ffff;
         justify-content: center;
@@ -228,10 +246,12 @@
         gap: 30px;
     }
 
+
+
     .container-four {
         display: flexbox;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         border: 2px solid black;
         background-color: #ffff;
         justify-content: center;
@@ -240,5 +260,22 @@
         min-height: 100vh;
         flex-direction: column;
         gap: 30px;
+    }
+
+    .container-five {
+        display: flex;
+        padding: 1cm;
+        border-radius: 15px;
+        border: 2px solid black;
+        background-color: #ffff;
+        height: 60vh;
+        justify-content: center;
+        min-height: 60vh;
+        gap: 30px;
+    }
+
+    .img-animais{
+        border-radius: 15px;
+        border: 2px solid black;
     }
 </style>

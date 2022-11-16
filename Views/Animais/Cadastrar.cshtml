@@ -7,7 +7,7 @@
     .cadastrar-container {
         display: flexbox;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         background-color: #ffff;
         justify-content: center;
         border: 2px solid black;
@@ -19,16 +19,14 @@
     }
 
     .container-four {
-        display: flexbox;
+        display: flex;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         border: 2px solid black;
         background-color: #ffff;
+        height: 60vh;
         justify-content: center;
-        align-items: center;
-        height: 100vh;
-        min-height: 100vh;
-        flex-direction: column;
+        min-height: 60vh;
         gap: 30px;
     }
 
@@ -145,7 +143,7 @@
     form {
         display: flexbox;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         background-color: #ffff;
         justify-content: center;
         align-items: center;
@@ -155,6 +153,11 @@
         position: absolute;
         padding-top: 0px;
     }
+
+    .img-animal{
+        border-radius: 15px;
+        border: 2px solid black;
+    }   
 /* 
     .buttons-container {
         position: absolute;
@@ -167,71 +170,63 @@
 
 <div class="cadastrar-container">
 
-    <div>
-        <img align="right"
-            src="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/a808f674e33cceb3b567fbf3199662162b385fadd9f0d8b42f7bdd4558943c00_1.jpg"
-            alt="babidi" width="250" height="300">
-    </div>
-
-
     <form>
         <legend>Cadastrando novos bichanos Sigmas!</legend>
 
         <div class="form-floating mb-3">
-            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Nome">
+            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Nome">
             <label for="floatingInput">Nome</label>
         </div>
         <br>
         <div class="form-floating">
-            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Gênero">
+            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Gênero">
             <label for="floatingPassword">Gênero</label>
         </div>
         <br>
         <div class="form-floating mb-3">
-            <input style="width:50vh;" type="number" class="form-control" id="floatingInput" placeholder="Idade">
+            <input style="width:50vh; height:50px;" type="number" class="form-control" id="floatingInput" placeholder="Idade">
             <label for="floatingInput">Idade</label>
         </div>
         <br>
         <div class="form-floating">
-            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Tipo">
+            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Tipo">
             <label for="floatingPassword">Tipo</label>
         </div>
         <br>
         <div class="form-floating mb-3">
-            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Raça">
+            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Raça">
             <label for="floatingInput">Raça</label>
         </div>
         <br>
         <div class="form-floating">
-            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Porte">
+            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Porte">
             <label for="floatingPassword">Porte</label>
         </div>
 
         <br>
         <div class="form-floating">
-            <input style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Castrado">
+            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Castrado">
             <label for="floatingPassword">Castrado</label>
         </div>
         <br>
-
-    
         <a role="button" class="button-voltar" asp-controller="Animais" asp-action="Index">Voltar</a>
         <a role="button" class="button-green">Cadastrar</a>
-       
-
     </form>
 
 </div>
 
+
 <br>
 
 <div class="container-four">
-    <img src="https://images.pexels.com/photos/10122494/pexels-photo-10122494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    <img class="img-animal" src="https://images.pexels.com/photos/10122494/pexels-photo-10122494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="babidi" width="250" height="250">
     <div align="right">
         <h2>E aí! O que achou?</h2>
+        <br>
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
+        
         <a role="button" class="button">Veja Mais!</a>
     </div>
 </div>

@@ -7,7 +7,7 @@
     .cadastrar-container {
         display: flexbox;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         background-color: #ffff;
         justify-content: center;
         border: 2px solid black;
@@ -19,16 +19,14 @@
     }
 
     .container-four {
-        display: flexbox;
+        display: flex;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         border: 2px solid black;
         background-color: #ffff;
+        height: 60vh;
         justify-content: center;
-        align-items: center;
-        height: 100vh;
-        min-height: 100vh;
-        flex-direction: column;
+        min-height: 60vh;
         gap: 30px;
     }
 
@@ -155,6 +153,11 @@
         position: absolute;
         padding-top: 0px;
     }
+
+    .img-servico{
+        border-radius: 15px;
+        border: 2px solid black;
+    }       
 /* 
     .buttons-container {
         position: absolute;
@@ -166,13 +169,6 @@
 </style>
 
 <div class="cadastrar-container">
-
-    <div>
-        <img align="right"
-            src="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/a808f674e33cceb3b567fbf3199662162b385fadd9f0d8b42f7bdd4558943c00_1.jpg"
-            alt="babidi" width="250" height="300">
-    </div>
-
 
     <form>
         <legend>Cadastrando novos Serviços!</legend>
@@ -216,7 +212,7 @@
 <br>
 
 <div class="container-four">
-    <img src="https://images.pexels.com/photos/10122494/pexels-photo-10122494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    <img class="img-servico" src="http://www.cotanet.com.br/img/site/produtos/banho-e-tosa-no-brooklin.jpg"
         alt="babidi" width="250" height="250">
     <div align="right">
         <h2>E aí! O que achou?</h2>

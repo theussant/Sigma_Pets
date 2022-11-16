@@ -8,105 +8,105 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Sigma_Pets
 build_property.RootNamespace = Sigma_Pets
-build_property.ProjectDir = C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\
+build_property.ProjectDir = C:\Users\Lab. de Software\Documents\DesenvolvimentoCs\Sigma_Pets\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets
+build_property.MSBuildProjectDirectory = C:\Users\Lab. de Software\Documents\DesenvolvimentoCs\Sigma_Pets
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Animais/Alterar.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Animais/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xBbHRlcmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Animais/Cadastrar.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Animais/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xDYWRhc3RyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Animais/Index.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Animais/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Animais/VerificarExcluir.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Animais/VerificarExcluir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xWZXJpZmljYXJFeGNsdWlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Clientes/Alterar.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Clientes/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Clientes/CadastrarCliente.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Clientes/CadastrarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2FkYXN0cmFyQ2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Clientes/Index.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Clientes/VerificarExcluir.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Clientes/VerificarExcluir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Home/Contatos.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Home/Contatos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Home/Index.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Home/Obrigado.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Home/Obrigado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPYnJpZ2Fkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Produtos/Alterar.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Produtos/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Produtos/CadastrarProdutos.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Produtos/CadastrarProdutos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ2FkYXN0cmFyUHJvZHV0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Produtos/Index.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Produtos/VerificarExcluir.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Produtos/VerificarExcluir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Servicos/Alterar.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Servicos/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Servicos/CadastrarServicos.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Servicos/CadastrarServicos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcQ2FkYXN0cmFyU2Vydmljb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Servicos/Index.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Servicos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Servicos/VerificarExcluir.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Servicos/VerificarExcluir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Shared/Error.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/_ViewImports.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/_ViewStart.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C\#/Projeto_C\#/Sigma_Pets/Views/Shared/_Layout.cshtml]
+[C:/Users/Lab. de Software/Documents/DesenvolvimentoCs/Sigma_Pets/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sfkoxjhdrx

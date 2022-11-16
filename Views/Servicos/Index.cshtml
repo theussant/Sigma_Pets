@@ -86,13 +86,17 @@
 <br>
 
 <div class="container-four">
-    <img src="https://www.petz.com.br/blog/wp-content/uploads/2021/03/como-dar-banho-em-cachorro2.jpg" alt="babidi"
+    <img class="img-animais" src="https://www.petz.com.br/blog/wp-content/uploads/2021/03/como-dar-banho-em-cachorro2.jpg" alt="babidi"
         width="250" height="250">
     <div align="right">
         <h2>E aí! O que achou?</h2>
+        <br>
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
-        <a role="button" class="button">Veja Mais!</a>
+        <br>
+        <br>
+        <br>
+        <a role="button" class="button-two">Veja Mais!</a>
     </div>
 </div>
 
@@ -153,6 +157,20 @@
         font-size: 15px;
     }
 
+    .button-two {
+        background-color: #f2b749;
+        transition-duration: 0.4s;
+        border: 2px solid black;
+        color: black;
+        font-weight: bold;
+        padding: 12px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+
     .button:active {
         background-color: #f2b749;
         box-shadow: 0 5px #666;
@@ -192,7 +210,7 @@
     .animais-container {
         display: flexbox;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         border: 2px solid black;
         background-color: #ffff;
         justify-content: center;
@@ -206,7 +224,7 @@
     .animais-container-second {
         display: flexbox;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         border: 2px solid black;
         background-color: #ffff;
         justify-content: center;
@@ -218,16 +236,19 @@
     }
 
     .container-four {
-        display: flexbox;
+        display: flex;
         padding: 1cm;
-        border-radius: 2%;
+        border-radius: 15px;
         border: 2px solid black;
         background-color: #ffff;
+        height: 60vh;
         justify-content: center;
-        align-items: center;
-        height: 100vh;
-        min-height: 100vh;
-        flex-direction: column;
+        min-height: 60vh;
         gap: 30px;
+    }
+
+    .img-animais{
+        border-radius: 15px;
+        border: 2px solid black;
     }
 </style>
