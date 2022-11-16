@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Matheus Silva\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Arq\\Códigos Livres\\gitclones\\Sigma_Pets\\Sigma_Pets.csproj",
+      "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\Sigma_Pets.csproj",
       "projectName": "Sigma_Pets",
-      "projectPath": "D:\\Arq\\Códigos Livres\\gitclones\\Sigma_Pets\\Sigma_Pets.csproj",
-      "packagesPath": "C:\\Users\\Matheus Silva\\.nuget\\packages\\",
-      "outputPath": "D:\\Arq\\Códigos Livres\\gitclones\\Sigma_Pets\\obj\\",
+      "projectPath": "c:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\Sigma_Pets.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Matheus Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

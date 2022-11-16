@@ -48,8 +48,9 @@ button.accept-policy[b-sfkoxjhdrx] {
 }
 
 .container-nav[b-sfkoxjhdrx] {
-  margin-left: auto;
+  margin: auto;
 }
+
 
 .nav-item:hover[b-sfkoxjhdrx] {
   background-color: #f2b749;
