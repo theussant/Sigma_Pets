@@ -1,52 +1,78 @@
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\bin\Debug\net6.0\appsettings.Development.json
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\bin\Debug\net6.0\appsettings.json
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.staticwebassets.runtime.json
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.exe
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.deps.json
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.runtimeconfig.json
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.dll
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.pdb
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.csproj.AssemblyReference.cache
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.GeneratedMSBuildEditorConfig.editorconfig
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.AssemblyInfoInputs.cache
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.AssemblyInfo.cs
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.csproj.CoreCompileInputs.cache
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.MvcApplicationPartsAssemblyInfo.cache
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.RazorAssemblyInfo.cache
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.RazorAssemblyInfo.cs
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\staticwebassets.build.json
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\staticwebassets.development.json
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\scopedcss\bundle\Sigma_Pets.styles.css
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\scopedcss\projectbundle\Sigma_Pets.bundle.scp.css
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.dll
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\refint\Sigma_Pets.dll
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.pdb
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.genruntimeconfig.cache
-D:\Arq\Códigos Livres\gitclones\Sigma_Pets\obj\Debug\net6.0\ref\Sigma_Pets.dll
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\bin\Debug\net6.0\appsettings.json
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.staticwebassets.runtime.json
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.exe
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.deps.json
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.runtimeconfig.json
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.dll
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\bin\Debug\net6.0\Sigma_Pets.pdb
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.RazorAssemblyInfo.cache
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.RazorAssemblyInfo.cs
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\scopedcss\bundle\Sigma_Pets.styles.css
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\scopedcss\projectbundle\Sigma_Pets.bundle.scp.css
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.dll
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\refint\Sigma_Pets.dll
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.pdb
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\Sigma_Pets.genruntimeconfig.cache
-C:\Users\Usuario\Desktop\C.TEC-DS\Desenvolvimento-C#\Projeto_C#\Sigma_Pets\obj\Debug\net6.0\ref\Sigma_Pets.dll
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/bin/Debug/net6.0/appsettings.Development.json
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/bin/Debug/net6.0/appsettings.json
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.staticwebassets.runtime.json
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.exe
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.deps.json
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.runtimeconfig.json
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.dll
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.pdb
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.csproj.AssemblyReference.cache
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.GeneratedMSBuildEditorConfig.editorconfig
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.AssemblyInfoInputs.cache
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.AssemblyInfo.cs
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.csproj.CoreCompileInputs.cache
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.MvcApplicationPartsAssemblyInfo.cache
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.RazorAssemblyInfo.cache
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.RazorAssemblyInfo.cs
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/staticwebassets.build.json
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/staticwebassets.development.json
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/scopedcss/bundle/Sigma_Pets.styles.css
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/scopedcss/projectbundle/Sigma_Pets.bundle.scp.css
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.dll
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/refint/Sigma_Pets.dll
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.pdb
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.genruntimeconfig.cache
+D:/Arq/Códigos Livres/gitclones/Sigma_Pets/obj/Debug/net6.0/ref/Sigma_Pets.dll
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/bin/Debug/net6.0/appsettings.json
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.staticwebassets.runtime.json
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.exe
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.deps.json
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.runtimeconfig.json
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.dll
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.pdb
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.csproj.AssemblyReference.cache
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.AssemblyInfoInputs.cache
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.AssemblyInfo.cs
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.csproj.CoreCompileInputs.cache
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.RazorAssemblyInfo.cache
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.RazorAssemblyInfo.cs
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/scopedcss/bundle/Sigma_Pets.styles.css
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/scopedcss/projectbundle/Sigma_Pets.bundle.scp.css
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.dll
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/refint/Sigma_Pets.dll
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.pdb
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.genruntimeconfig.cache
+C:/Users/Usuario/Desktop/C.TEC-DS/Desenvolvimento-C#/Projeto_C#/Sigma_Pets/obj/Debug/net6.0/ref/Sigma_Pets.dll
+/home/matheus/Codes/gitclones/Sigma_Pets/bin/Debug/net6.0/appsettings.Development.json
+/home/matheus/Codes/gitclones/Sigma_Pets/bin/Debug/net6.0/appsettings.json
+/home/matheus/Codes/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.staticwebassets.runtime.json
+/home/matheus/Codes/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets
+/home/matheus/Codes/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.deps.json
+/home/matheus/Codes/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.runtimeconfig.json
+/home/matheus/Codes/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.dll
+/home/matheus/Codes/gitclones/Sigma_Pets/bin/Debug/net6.0/Sigma_Pets.pdb
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.csproj.AssemblyReference.cache
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.AssemblyInfoInputs.cache
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.AssemblyInfo.cs
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.csproj.CoreCompileInputs.cache
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.MvcApplicationPartsAssemblyInfo.cache
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.RazorAssemblyInfo.cache
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.RazorAssemblyInfo.cs
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/staticwebassets.build.json
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/staticwebassets.development.json
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/scopedcss/bundle/Sigma_Pets.styles.css
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/scopedcss/projectbundle/Sigma_Pets.bundle.scp.css
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.dll
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/refint/Sigma_Pets.dll
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.pdb
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/Sigma_Pets.genruntimeconfig.cache
+/home/matheus/Codes/gitclones/Sigma_Pets/obj/Debug/net6.0/ref/Sigma_Pets.dll
