@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/matheus/Codes/gitclones/Sigma_Pets/Sigma_Pets.csproj": {}
+    "D:\\Arq\\Códigos Livres\\gitclones\\Sigma_Pets\\Sigma_Pets.csproj": {}
   },
   "projects": {
-    "/home/matheus/Codes/gitclones/Sigma_Pets/Sigma_Pets.csproj": {
+    "D:\\Arq\\Códigos Livres\\gitclones\\Sigma_Pets\\Sigma_Pets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Codes/gitclones/Sigma_Pets/Sigma_Pets.csproj",
+        "projectUniqueName": "D:\\Arq\\Códigos Livres\\gitclones\\Sigma_Pets\\Sigma_Pets.csproj",
         "projectName": "Sigma_Pets",
-        "projectPath": "/home/matheus/Codes/gitclones/Sigma_Pets/Sigma_Pets.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Codes/gitclones/Sigma_Pets/obj/",
+        "projectPath": "D:\\Arq\\Códigos Livres\\gitclones\\Sigma_Pets\\Sigma_Pets.csproj",
+        "packagesPath": "C:\\Users\\Matheus Silva\\.nuget\\packages\\",
+        "outputPath": "D:\\Arq\\Códigos Livres\\gitclones\\Sigma_Pets\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Matheus Silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -63,8 +67,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
