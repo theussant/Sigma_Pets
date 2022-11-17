@@ -158,13 +158,30 @@
         border-radius: 15px;
         border: 2px solid black;
     }    
-/* 
-    .buttons-container {
+
+    .form-position {
         position: absolute;
-        left: 90vh;
-        bottom: -100px;
-        right: 100vh;
-    } */
+        left: 500px;
+        top: 40px;
+    }
+
+    .form-position-1 {
+        position: absolute;
+        left: 500px;
+        top: 160px;
+    }
+
+    .form-position-2 {
+        position: absolute;
+        left: 500px;
+        top: 270px;
+    }
+
+    .button-position{
+        position: absolute;
+        right: 450px;
+        top: 450px;
+    }
 
 </style>
 
@@ -178,57 +195,40 @@
             <label for="floatingInput">Nome</label>
         </div>
         <br>
-        <div class="form-floating">
-            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Marca">
-            <label for="floatingPassword">Marca</label>
-        </div>
+
+        <div class="form-position">
+            <div class="form-floating">
+                <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Marca">
+                <label for="floatingPassword">Marca</label>
+            </div>
+        </div>    
         <br>
+
         <div class="form-floating mb-3">
             <input style="width:50vh; height:50px;" type="date" class="form-control" id="floatingInput" placeholder="Data de Fabricação">
             <label for="floatingInput">Data de fabricação</label>
         </div>
         <br>
-        <div class="form-floating">
-            <input style="width:50vh; height:50px;" type="date" class="form-control" id="floatingInput" placeholder="Data de validade">
-            <label for="floatingPassword">Data de validade</label>
+
+        <div class="form-position-1">
+            <div class="form-floating">
+                <input style="width:50vh; height:50px;" type="date" class="form-control" id="floatingInput" placeholder="Data de validade">
+                <label for="floatingPassword">Data de validade</label>
+            </div>
         </div>
         <br>
+
         <div class="form-floating mb-3">
             <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Funcionalidade">
             <label for="floatingInput">Funcionalidade</label>
         </div>
         <br>
-        <div class="form-floating">
-            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Fornecedor(CNPJ)">
-            <label for="floatingPassword">Fornecedor(CNPJ)</label>
-        </div>
 
-        <br>
-        <div class="form-floating">
-            <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput" placeholder="Código de barra">
-            <label for="floatingPassword">Código de barra</label>
-        </div>
-        <br>
-
-    
+        <div class="button-position">
         <a role="button" class="button-voltar" asp-controller="Produtos" asp-action="Index">Voltar</a>
         <a role="button" class="button-green">Cadastrar</a>
-       
+        </div>
 
     </form>
 
-</div>
-
-<br>
-
-<div class="container-four">
-    <img class="img-produto" src="https://www.revendedor.com.br/wp-content/uploads/2021/06/vender-produtos-para-pet-no-mercado-livre.jpg"
-        alt="babidi" width="250" height="250">
-    <div align="right">
-        <h2>E aí! O que achou?</h2>
-        <br>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</h4>
-        <a role="button" class="button">Veja Mais!</a>
-    </div>
 </div>
