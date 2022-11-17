@@ -4,20 +4,16 @@ using Sigma_Pets.Models;
 
 namespace CRUDMVC.Controllers;
 
-public class HomeController : Controller
+public class ClienteController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<ClienteController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public ClienteController(ILogger<ClienteController> logger)
     {
         _logger = logger;
     }
 
     public IActionResult Index()
-    {
-        return View();
-    }
-    public IActionResult Privacy()
     {
         return View();
     }

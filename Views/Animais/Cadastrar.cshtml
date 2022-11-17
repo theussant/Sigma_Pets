@@ -1,8 +1,10 @@
+@model AnimaisModel
+
 <link rel="stylesheet" href="~/css/Cadastrar.css">
 
 <section class="cadastrar-container">
 
-    <form>
+    <form asp-controller="Animais" asp-action="Cadastrar" method="post">
         <legend>Cadastrando novos bichanos Sigmas!</legend>
             <div class="form-floating mb-3">
                 <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"

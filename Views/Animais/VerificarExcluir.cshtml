@@ -1,40 +1,16 @@
+@model AnimaisModel
+
 <link rel="stylesheet" href="~/css/VerificarExcluir.css">
 
 
 <main>
     <section class="container_excluir">
         <article class="excluir__texto">
-            <h1>Deseja excluir esse registro?</h1>
+            <h1>Deseja excluir esse registro? (@Model.Nome)</h1>
                 <p>A ação de exclusão não pode ser desfeita depois de executada!</p>
         </article>
-        <article class="container_excluir-table">
-            <table class="content-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nome</th>
-                        <th>Gênero</th>
-                        <th>Idade</th>
-                        <th>Tipo</th>
-                        <th>Raça</th>
-                        <th>Porte</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Babidi</td>
-                        <td>Macho</td>
-                        <td>1 ano</td>
-                        <td>Gato</td>
-                        <td>ViraLata</td>
-                        <td>Médio</td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
+  
         <a role="button" class="button_voltar" asp-controller="Animais" asp-action="Index">Voltar</a>
-        <a role="button" class="button_excluir">Excluir registro</a>
+        <a role="button" class="button_excluir" asp-route-id="@Model.Id" asp-asp-controller="Animais" asp-action="deletar">Excluir registro</a>
     </section>
 </main>
