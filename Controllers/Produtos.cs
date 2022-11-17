@@ -1,38 +1,57 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Sigma_Pets.Models;
+using Sigma_Pets.Repository;
 
 namespace Sigma_Pets.Controllers;
 
 public class ProdutosController : Controller
 {
-    private readonly ILogger<ProdutosController> _logger;
+    private readonly IProdutosRepository _produtosRepository;
 
-    public ProdutosController(ILogger<ProdutosController> logger)
+    public ProdutosController(IProdutosRepository produtosRepository)
     {
-        _logger = logger;
+        _produtosRepository = produtosRepository;
     }
 
     public IActionResult Index()
     {
-        return View();
+        List<ProdutosModel> produtos = _produtosRepository.listarProdutos();
+        return View(produtos);
     }
-    public IActionResult Alterar()
+    public IActionResult Alterar(int id)
     {
-        return View();
+        var produtos = _produtosRepository.buscarId(id);
+        return View(produtos);
     }
-    public IActionResult VerificarExcluir()
+    public IActionResult VerificarExcluir(int id)
     {
-        return View();
+        var produtos = _produtosRepository.buscarId(id);
+        return View(produtos);
     }
-    public IActionResult CadastrarProdutos()
+
+    public IActionResult Excluir(int id)
+    {
+        _produtosRepository.excluir(id);
+        return RedirectToAction("Index");
+    }
+    public IActionResult Cadastrar()
     {
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+   [HttpPost]
+    public IActionResult Cadastrar(ProdutosModel produtos)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        _produtosRepository.cadastrar(produtos);
+        return RedirectToAction("Index");
+    }
+
+
+    [HttpPost]
+    public IActionResult Atualizar(ProdutosModel produtos)
+    {
+        _produtosRepository.atualizar(produtos);
+        return RedirectToAction("Index");
     }
 }

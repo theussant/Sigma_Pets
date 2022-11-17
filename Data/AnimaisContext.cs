@@ -13,6 +13,5 @@ namespace Sigma_Pets.Data
         public DbSet<ProdutosModel> Produtos {get;set;}
         public DbSet<ServicosModel> Servicos {get;set;}
         public DbSet<ClientesModel> Clientes {get;set;}
-    }
-    
+    } 
 }
