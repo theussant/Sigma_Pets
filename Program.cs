@@ -1,4 +1,22 @@
+using Microsoft.EntityFrameworkCore;
+using Sigma_Pets.Data;
+using Microsoft.Extensions.DependencyInjection;
+using Sigma_Pets.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+
+string mySqlConnection = builder.Configuration.GetConnectionString("DefaultDatabase");
+
+builder.Services.AddDbContext<AnimaisContext>(opt => {
+    opt.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection));
+});
+
+builder.Services.AddScoped<IAnimaisRepository, AnimaisRepository>();
+builder.Services.AddScoped<IClientesRepository, ClientesRepository>();
+builder.Services.AddScoped<IServicosRepository, ServicosRepository>();
+builder.Services.AddScoped<IProdutosRepository, ProdutosRepository>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
