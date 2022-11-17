@@ -57,14 +57,14 @@
         
     }
 
-    .button-voltar {
+    .button_voltar {
         background-color: #f2b749;
         width: 170px;
         height: 50px;
         border: 2px solid black;
         border-radius: 15px;
         transition-duration: 0.4s;
-        margin-top: 10%;
+        margin-top: 50%;
         margin-left: 10%;
         font-size: 1.2em;
         font-weight: bold;
@@ -72,12 +72,8 @@
         text-align: center;
         text-decoration: none;
         color: black;
-        display: inline-block;
 
-        position: absolute;
-        left: 60vh;
-        bottom: -100px;
-        right: 100vh;
+        
     }
 
     a {
@@ -121,11 +117,11 @@
         padding: 11px 35px;
         text-align: center;
         text-decoration: none;
-
-        position: absolute;
-        left: 90vh;
-        bottom: -100px;
-        right: 100vh;
+        display: inline-block;
+        position: relative;
+        left:200px;
+        bottom:70px;
+        
     }
 
 
@@ -183,10 +179,13 @@
         
     }
 
-    .button-position{
-        position: absolute;
-        right: 450px;
-        top: 450px;
-    }
+    
 
-  
+  .button-position-1000 {
+    display: flex;
+  }
+  .button_voltar_animal {
+    position:relative;
+    bottom:70px;
+
+  }

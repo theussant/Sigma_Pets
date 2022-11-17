@@ -1,0 +1,19 @@
+@model ProdutoModel
+
+<link rel="stylesheet" href="~/css/VerificarExcluir.css">
+
+<main>
+    <section class="container-excluir">
+        <article class="excluir__texto">
+            <h1>Deseja excluir (@Model.Nome)?</h1>
+            <p>A ação de exclusão não pode ser desfeita depois de executada!</p>
+
+            <a role="button" class="button_excluir" asp-route-id="@Model.Id" asp-asp-controller="Produto"
+                asp-action="deletar">Confirmar</a>
+            <a role="button" class="button_voltar" asp-controller="Produto" asp-action="Index">Voltar</a>
+        </article>
+
+
+
+    </section>
+</main>

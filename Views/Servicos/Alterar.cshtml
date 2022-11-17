@@ -1,34 +1,34 @@
-<link rel="stylesheet" href="~/css/VerificarAlterar.css">
+@model ServicosModel
 
+<link rel="stylesheet" href="~/css/Cadastrar.css">
 
-<main>
-    <section class="container_alterar">
-        <article class="alterar__texto">
-            <h1>Deseja alterar esse registro?</h1>
-                <p>A ação de alteração não pode ser desfeita depois de executada!</p>
-        </article>
-        <article class="container_alterar-tabela">
-            <table class="content-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nome</th>
-                        <th>Tipo</th>
-                        <th>Valor</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Banho completo</td>
-                        <td>Limpeza</td>
-                        <td>R$100.00</td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
+<div class="cadastrar-container">
+
+    <form asp-controller="Servicos" asp-action="Atualizar" method="post">
+        <legend>Atualizando Serviços!</legend>
+        <input type="hidden" asp-for="Id">
+        <div class="form-floating mb-3">
+            <input required asp-for="Nome" style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Nome">
+            <label for="floatingInput">Nome</label>
+        </div>
+        <br>
+
+        <div class="form-floating mb-3">
+            <input required asp-for="Valor" style="width:50vh;" type="number" class="form-control" id="floatingInput" placeholder="valor">
+            <label for="floatingInput">Valor</label>
+        </div>
+        <br>
+
+        <div class="form-floating mb-3">
+            <input required asp-for="Tipo" style="width:50vh;" type="text" class="form-control" id="floatingInput" placeholder="Tipo">
+            <label for="floatingInput">Tipo</label>
+        </div>
+        <br>
+
+        <div class="button-position">
         <a role="button" class="button_voltar" asp-controller="Servicos" asp-action="Index">Voltar</a>
-        <a role="button" class="button_alterar">Alterar registro</a>
-    </section>
-</main>
+        <button type="submit" class="button-green">Atualizar</butt>
+        </div>
+
+    </form>
+</div>

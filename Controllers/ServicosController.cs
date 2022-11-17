@@ -30,7 +30,7 @@ public class ServicosController : Controller
         return View(servicos);
     }
 
-    public IActionResult Excluir(int id)
+    public IActionResult Deletar(int id)
     {
         _servicosRepository.deletar(id);
         return RedirectToAction("Index");

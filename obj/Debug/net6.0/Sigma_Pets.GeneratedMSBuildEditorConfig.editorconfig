@@ -59,28 +59,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPYnJpZ2Fkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Produtos/Alterar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQWx0ZXJhci5jc2h0bWw=
+[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Produto/Alterar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xBbHRlcmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Produtos/CadastrarProdutos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ2FkYXN0cmFyUHJvZHV0b3MuY3NodG1s
+[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Produto/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDYWRhc3RyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Produtos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
+[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Produtos/VerificarExcluir.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
+[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Produto/VerificarExcluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xWZXJpZmljYXJFeGNsdWlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Servicos/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Servicos/CadastrarServicos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcQ2FkYXN0cmFyU2Vydmljb3MuY3NodG1s
+[C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Servicos/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcQ2FkYXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lab. de Software/Documents/Aula_Mobile/Sigma_Pets/Views/Servicos/Index.cshtml]

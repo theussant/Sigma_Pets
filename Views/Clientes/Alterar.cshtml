@@ -2,11 +2,12 @@
 
 <main>
     <section class="container_alterar">
-        <article class="alterar__texto">
+        
+        <article class="container_alterar-tabela">
+            <article class="alterar__texto">
             <h1>Deseja alterar esse registro?</h1>
                 <p>A ação de alteração não pode ser desfeita depois de executada!</p>
         </article>
-        <article class="container_alterar-tabela">
             <table class="content-table">
                 <thead>
                     <tr>
@@ -30,8 +31,11 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="container__buttons">
+                <a role="button"  class="button_voltar" asp-controller="Clientes" asp-action="Index">Voltar</a>
+             <a role="button" class="button_alterar">Alterar registro</a>
+            </div>
         </article>
-        <a role="button"  class="button_voltar" asp-controller="Clientes" asp-action="Index">Voltar</a>
-        <a role="button" class="button_alterar">Alterar registro</a>
+        
     </section>
 </main>
