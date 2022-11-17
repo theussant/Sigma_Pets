@@ -7,42 +7,42 @@
     <form asp-controller="Animais" asp-action="Cadastrar" method="post">
         <legend>Cadastrando novos bichanos Sigmas!</legend>
             <div class="form-floating mb-3">
-                <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
+                <input required asp-for="Nome" style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
                     placeholder="Nome">
                 <label for="floatingInput">Nome</label>
             </div>
             <br>
             <div class="form-position">
             <div class="form-floating">
-                <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
+                <input required asp-for="Genero" style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
                     placeholder="Gênero">
                 <label for="floatingPassword">Gênero</label>
             </div>
             </div>
             <br>
             <div class="form-floating mb-3">
-                <input style="width:50vh; height:50px;" type="number" class="form-control" id="floatingInput"
+                <input required asp-for="Idade" style="width:50vh; height:50px;" type="number" class="form-control" id="floatingInput"
                     placeholder="Idade">
                 <label for="floatingInput">Idade</label>
             </div>
             <br>
             <div class="form-position-1">
             <div class="form-floating">
-                <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
+                <input required asp-for="Tipo" style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
                     placeholder="Tipo">
                 <label for="floatingPassword">Tipo</label>
             </div>
             </div>
             <br>
             <div class="form-floating mb-3">
-                <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
+                <input required asp-for="Raca" style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
                     placeholder="Raça">
                 <label for="floatingInput">Raça</label>
             </div>
             <br>
             <div class="form-position-2">
             <div class="form-floating">
-                <input style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
+                <input required asp-for="Porte" style="width:50vh; height:50px;" type="text" class="form-control" id="floatingInput"
                     placeholder="Porte">
                 <label for="floatingPassword">Porte</label>
             </div>

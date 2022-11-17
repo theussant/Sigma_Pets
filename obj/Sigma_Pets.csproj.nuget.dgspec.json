@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/matheus/Codes/gitclones/Sigma_Pets/Sigma_Pets.csproj": {}
+    "C:\\Users\\Lab. de Software\\Documents\\Aula_Mobile\\Sigma_Pets\\Sigma_Pets.csproj": {}
   },
   "projects": {
-    "/home/matheus/Codes/gitclones/Sigma_Pets/Sigma_Pets.csproj": {
+    "C:\\Users\\Lab. de Software\\Documents\\Aula_Mobile\\Sigma_Pets\\Sigma_Pets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Codes/gitclones/Sigma_Pets/Sigma_Pets.csproj",
+        "projectUniqueName": "C:\\Users\\Lab. de Software\\Documents\\Aula_Mobile\\Sigma_Pets\\Sigma_Pets.csproj",
         "projectName": "Sigma_Pets",
-        "projectPath": "/home/matheus/Codes/gitclones/Sigma_Pets/Sigma_Pets.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Codes/gitclones/Sigma_Pets/obj/",
+        "projectPath": "C:\\Users\\Lab. de Software\\Documents\\Aula_Mobile\\Sigma_Pets\\Sigma_Pets.csproj",
+        "packagesPath": "C:\\Users\\Lab. de Software\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lab. de Software\\Documents\\Aula_Mobile\\Sigma_Pets\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lab. de Software\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,8 +79,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -84,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

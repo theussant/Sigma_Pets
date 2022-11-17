@@ -1,4 +1,6 @@
-﻿@{
+﻿@model List<ProdutoModel>
+
+@{
     ViewData["Title"] = "Produtos";
 }
 
@@ -24,58 +26,37 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>1</td>
-                <td>Shampoo</td>
-                <td>R$30.00</td>
-                <td>Sigma Shampoos</td>
-                <td>10/10/2022</td>
-                <td>31/12/2023</td>
-                <td>Limpeza</td>
-                <td>
-                    <div>
-                        <a role="button" asp-controller="Produtos" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
-                            style=height="32" width="32"></a>
-                        <a role="button" asp-controller="Produtos" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
-                            style=height="32" width="32"></a>
-                    </div>
-                </td>
-            </tr>
+            @if (Model != null && Model.Any())
+            {
+                var i = 1;
+                foreach (ProdutoModel produtos in Model)
 
-            <tr>
-                <td>2</td>
-                <td>Bola</td>
-                <td>R$25.00</td>
-                <td>Sigma Balls</td>
-                <td>11/11/2022</td>
-                <td>31/12/2026</td>
-                <td>Diversão</td>
-                <td>
-                    <div>
-                        <a role="button" asp-controller="Produtos" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                {
+                    
+                <tr>
+                    <th scope="row">@i</th>
+                    <td>@produtos.Nome</td>
+                    <td>@produtos.Valor</td>
+                    <td>@produtos.Marca</td>
+                    <td>@produtos.Dt_Fab</td>
+                    <td>@produtos.Dt_Val</td>
+                    <td>@produtos.Funcionalidade</td>
+                    <td>
+                        <div>
+                            <a role="button" asp-route-id="@produtos.Id" asp-asp-controller="Produtos"
+                            asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
                                 style=height="32" width="32"></a>
-                        <a role="button" asp-controller="Produtos" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                                
+                            <a role="button" asp-route-id="@produtos.Id" asp-asp-controller="Produtos"
+                            asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
                                 style=height="32" width="32"></a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Coleira</td>
-                <td>R$50.00</td>
-                <td>Sigma Utility</td>
-                <td>19/04/2022</td>
-                <td>31/12/2025</td>
-                <td>Utilidade</td>
-                <td>
-                    <div>
-                        <a role="button" asp-controller="Produtos" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
-                                style=height="32" width="32"></a>
-                        <a role="button" asp-controller="Produtos" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
-                                style=height="32" width="32"></a>
-                    </div>
-                </td>
-            </tr>
+                        </div>
+                    </td>
+                   
+                </tr>
+                i += 1;
+                }
+            }
         </tbody>
     </table>
 
