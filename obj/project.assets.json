@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\Desktop\\Sigma_Pets\\Sigma_Pets.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\Sigma_Pets.csproj",
       "projectName": "Sigma_Pets",
-      "projectPath": "C:\\Users\\diego\\Desktop\\Sigma_Pets\\Sigma_Pets.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\Desktop\\Sigma_Pets\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\Sigma_Pets.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\C.TEC-DS\\Desenvolvimento-C#\\Projeto_C#\\Sigma_Pets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

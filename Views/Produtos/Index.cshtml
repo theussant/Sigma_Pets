@@ -2,6 +2,8 @@
     ViewData["Title"] = "Produtos";
 }
 
+<link rel="stylesheet" href="~/css/Produtos.css">
+
 <div class="animais-container">
     <h1>Lista Geral de Produtos</h1>
 
@@ -87,171 +89,16 @@
 <br>
 
 <div class="container-four">
-    <img class="img-animais" src="https://www.casamelhor.com/wp-content/uploads/2019/11/escolher.jpg" alt="Shampoo de cachorro" width="250" height="250">
+    <img class="img-animais" src="https://images.unsplash.com/photo-1630173207885-c903abb963f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"  alt="Porco da índia" width="300" height="250">
     <div align = "right">
-        <h2>E aí! O que achou?</h2>
+        <h2 class="container-four__h2">E aí! O que achou?</h2>
         <br>
-        <h4>Buscamos oferecer os melhores produtos para satisfação dos clientes!</h4>
+        <h4 class="container-four__h4">Buscamos oferecer os melhores produtos para satisfação dos clientes!</h4>
         <br>
         <br>
         <br>
-        <a role="button" class="button-two">Veja Mais!</a>
+        <a role="button" class="button-container-four__a" asp-controller="Home" asp-action="Contatos">Fale com a gente!</a>
     </div>
 </div>
 
-<style>
-
-    * {
-        font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .content-table {
-        border-collapse: collapse;
-        display: flexbox;
-        margin: 25px 0;
-        font-size: 0.8em;
-        font-weight: bold;
-        min-width: 400px;
-        width: 900px;
-        border-radius: 5px 5px 0 0;
-        overflow: hidden;
-        box-shadow: 0 0 20px #f2b749;
-    }
-
-    .content-table thead tr {
-        background-color: #f2b749;
-        color: #000000;
-        text-align: left;
-        font-weight: bold;
-    }
-
-    .content-table th,
-    .content-table td {
-        padding: 12px 15px;
-    }
-
-    .content-table tbody tr {
-        border-bottom: 1px solid #dddddd;
-    }
-
-    .content-table tbody tr:nth-of-type(even) {
-        background-color: #f3f3f3;
-    }
-
-    .content-table tbody tr:last-of-type {
-        border-bottom: 2px solid #ff9800;
-    }
-
-    .button {
-        background-color: #f2b749;
-        transition-duration: 0.4s;
-        border: 2px solid black;
-        color: black;
-        font-weight: bold;
-        padding: 8px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 8px;
-        font-size: 15px;
-    }
-
-    .button-two {
-        background-color: #f2b749;
-        transition-duration: 0.4s;
-        border: 2px solid black;
-        color: black;
-        font-weight: bold;
-        padding: 12px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 8px;
-        font-size: 15px;
-    }
-
-    .button:active {
-        background-color: #f2b749;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-    }
-
-    .button:hover {
-        background-color: #ff9800;
-        color: #ffffff
-    }
-
-    .button-green {
-        background-color: #8bc34a;
-        transition-duration: 0.4s;
-        border: 2px solid black;
-        color: black;
-        font-weight: bold;
-        padding: 8px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 8px;
-        font-size: 15px;
-    }
-
-    .button-green:active {
-        background-color: #41B068;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-    }
-
-    .button-green:hover {
-        background-color: #41B068;
-        color: #ffffff
-    }
-
-    .animais-container {
-        display: flexbox;
-        padding: 1cm;
-        border-radius: 15px;
-        border: 2px solid black;
-        background-color: #ffff;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        min-height: 100vh;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .animais-container-second {
-        display: flexbox;
-        padding: 1cm;
-        border-radius: 15px;
-        border: 2px solid black;
-        background-color: #ffff;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        min-height: 100vh;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .container-four {
-        display: flex;
-        padding: 1cm;
-        border-radius: 15px;
-        border: 2px solid black;
-        background-color: #ffff;
-        height: 60vh;
-        justify-content: center;
-        min-height: 60vh;
-        gap: 30px;
-    }
-
-    .img-animais{
-        border-radius: 15px;
-        border: 2px solid black;
-    }
-
-</style>
+   
