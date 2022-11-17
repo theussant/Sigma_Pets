@@ -1,4 +1,6 @@
-﻿@{
+﻿@model List<AnimaisModel>
+
+@{
     ViewData["Title"] = "Animais";
 }
 
@@ -25,60 +27,37 @@
         </thead>
         
         <tbody>
-            <tr>
-                <td>1</td>
-                <td>Babidi</td>
-                <td>Macho</td>
-                <td>1 ano</td>
-                <td>Gato</td>
-                <td>ViraLata</td>
-                <td>Médio</td>
-                <td>
-                    <div>
-                        <a role="button" asp-controller="Animais" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
-                                style=height="32" width="32"></a>
-                        <a role="button" asp-controller="Animais" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
-                                style=height="32" width="32"></a>
-                    </div>
-                </td>
-            </tr>
+            @if (Model != null && Model.Any())
+            {
+                var i = 1;
+                foreach (AnimaisModel animais in Model)
 
-            <tr>
-                <td>2</td>
-                <td>Rogério</td>
-                <td>Macho</td>
-                <td>3 anos</td>
-                <td>Cachorro</td>
-                <td>Pug</td>
-                <td>Médio</td>
-                
-                <td>
-                    <div>
-                        <a role="button" asp-controller="Animais" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
+                {
+                    
+                <tr>
+                    <th scope="row">@i</th>
+                    <td>@animais.Nome</td>
+                    <td>@animais.Genero</td>
+                    <td>@animais.Idade</td>
+                    <td>@animais.Tipo</td>
+                    <td>@animais.Raca</td>
+                    <td>@animais.Porte</td>
+                    <td>
+                        <div>
+                            <a role="button" asp-route-id="@animais.Id" asp-asp-controller="Animais"
+                            asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
                                 style=height="32" width="32"></a>
-                        <a role="button" asp-controller="Animais" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
+                                
+                            <a role="button" asp-route-id="@animais.Id" asp-asp-controller="Animais"
+                            asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
                                 style=height="32" width="32"></a>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td>3</td>
-                <td>Luna</td>
-                <td>Femea</td>
-                <td>5 meses</td>
-                <td>Gato</td>
-                <td>Persa</td>
-                <td>Pequeno</td>
-                <td>
-                    <div>
-                        <a role="button" asp-controller="Animais" asp-action="Alterar"><img src="https://cdn-icons-png.flaticon.com/512/1263/1263925.png"
-                                style=height="32" width="32"></a>
-                        <a role="button" asp-controller="Animais" asp-action="VerificarExcluir"><img src="https://freepngimg.com/thumb/trash_can/164906-trash-png-file-hd.png"
-                                style=height="32" width="32"></a>
-                    </div>
-                </td>
-            </tr>
+                        </div>
+                    </td>
+                   
+                </tr>
+                i += 1;
+                }
+            }
         </tbody>
     </table>
 

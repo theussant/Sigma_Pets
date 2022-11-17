@@ -45,7 +45,6 @@ namespace Sigma_Pets.Repository
             animalDB.Tipo = animal.Tipo;
             animalDB.Raca = animal.Raca;
             animalDB.Porte = animal.Porte;
-            animalDB.Castrado = animal.Castrado;
         
             animal_Context.Animais.Update(animalDB);
             animal_Context.SaveChanges();

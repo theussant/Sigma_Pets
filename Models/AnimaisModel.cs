@@ -12,7 +12,6 @@ namespace Sigma_Pets.Models
         public string Tipo { get; set; }
         public string Raca { get; set; }
         public string Porte { get; set; }
-        public string Castrado { get; set; }
 
     }
 }
