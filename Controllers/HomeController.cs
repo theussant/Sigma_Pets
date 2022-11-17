@@ -17,24 +17,7 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Obrigado()
-    {
-        return View();
-    }
-    public IActionResult Contatos()
-    {
-        return View();
-    }
-
-    public IActionResult Produtos()
-    {
-        return View();
-    }
-    public IActionResult Servicos()
-    {
-        return View();
-    }
-    public IActionResult Clientes()
+    public IActionResult Privacy()
     {
         return View();
     }

@@ -1,38 +1,59 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Sigma_Pets.Models;
+using Sigma_Pets.Repository;
 
 namespace Sigma_Pets.Controllers;
 
 public class AnimaisController : Controller
 {
-    private readonly ILogger<AnimaisController> _logger;
-
-    public AnimaisController(ILogger<AnimaisController> logger)
+    private readonly IAnimaisRepository _animaisRepository;
+    public AnimaisController(IAnimaisRepository animalRepository)
     {
-        _logger = logger;
+        _animaisRepository = animalRepository;
     }
 
     public IActionResult Index()
     {
-        return View();
+        List<AnimaisModel> animais = _animaisRepository.listarAnimais();
+        return View(animais);
     }
-    public IActionResult Alterar()
-    {
-        return View();
-    }
-    public IActionResult VerificarExcluir()
-    {
-        return View();
-    }
+
     public IActionResult Cadastrar()
     {
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+   public IActionResult Alterar(int id)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        var animal = _animaisRepository.buscarId(id);
+        return View(animal);
+    }
+    public IActionResult VerificarExcluir(int id)
+    {
+        var animal = _animaisRepository.buscarId(id);
+        return View(animal);
+    }
+
+     public IActionResult deletar(int id)
+    {
+        _animaisRepository.deletar(id);
+        return RedirectToAction("Index");
+    }
+
+
+    [HttpPost]
+    public IActionResult Cadastrar(AnimaisModel animal)
+    {
+        _animaisRepository.adicionar(animal);
+        return RedirectToAction("Index");
+    }
+
+
+    [HttpPost]
+    public IActionResult Atualizar(AnimaisModel animal)
+    {
+        _animaisRepository.atualizar(animal);
+        return RedirectToAction("Index");
     }
 }

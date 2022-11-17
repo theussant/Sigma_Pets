@@ -8,105 +8,105 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Sigma_Pets
 build_property.RootNamespace = Sigma_Pets
-build_property.ProjectDir = C:\Users\diego\Desktop\Sigma_Pets\
+build_property.ProjectDir = /home/matheus/Codes/gitclones/Sigma_Pets/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\diego\Desktop\Sigma_Pets
+build_property.MSBuildProjectDirectory = /home/matheus/Codes/gitclones/Sigma_Pets
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Animais/Alterar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xBbHRlcmFyLmNzaHRtbA==
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Animais/Alterar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5pbWFpcy9BbHRlcmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Animais/Cadastrar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xDYWRhc3RyYXIuY3NodG1s
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Animais/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5pbWFpcy9DYWRhc3RyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Animais/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xJbmRleC5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Animais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5pbWFpcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Animais/VerificarExcluir.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xWZXJpZmljYXJFeGNsdWlyLmNzaHRtbA==
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Animais/VerificarExcluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5pbWFpcy9WZXJpZmljYXJFeGNsdWlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Clientes/Alterar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQWx0ZXJhci5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Clientes/Alterar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Clientes/CadastrarCliente.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2FkYXN0cmFyQ2xpZW50ZS5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Clientes/CadastrarCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvQ2FkYXN0cmFyQ2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Clientes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Clientes/VerificarExcluir.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Clientes/VerificarExcluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Home/Contatos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvcy5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Home/Contatos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Home/Obrigado.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPYnJpZ2Fkby5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Home/Obrigado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9PYnJpZ2Fkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Produtos/Alterar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQWx0ZXJhci5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Produtos/Alterar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Produtos/CadastrarProdutos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ2FkYXN0cmFyUHJvZHV0b3MuY3NodG1s
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Produtos/CadastrarProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvQ2FkYXN0cmFyUHJvZHV0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Produtos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Produtos/VerificarExcluir.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Produtos/VerificarExcluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Servicos/Alterar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcQWx0ZXJhci5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Servicos/Alterar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vydmljb3MvQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Servicos/CadastrarServicos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcQ2FkYXN0cmFyU2Vydmljb3MuY3NodG1s
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Servicos/CadastrarServicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vydmljb3MvQ2FkYXN0cmFyU2Vydmljb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Servicos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcSW5kZXguY3NodG1s
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Servicos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vydmljb3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Servicos/VerificarExcluir.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vydmljb3NcVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Servicos/VerificarExcluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2Vydmljb3MvVmVyaWZpY2FyRXhjbHVpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/diego/Desktop/Sigma_Pets/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-sfkoxjhdrx
+[/home/matheus/Codes/gitclones/Sigma_Pets/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2ogcr70p7j
