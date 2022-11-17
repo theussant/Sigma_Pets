@@ -1,0 +1,192 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cadastrar-container {
+        display: flexbox;
+        padding: 1cm;
+        border-radius: 15px;
+        background-color: #ffff;
+        justify-content: center;
+        border: 2px solid black;
+        align-items: center;
+        height: 100vh;
+        min-height: 100vh;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-four {
+        display: flex;
+        padding: 1cm;
+        border-radius: 15px;
+        border: 2px solid black;
+        background-color: #ffff;
+        height: 60vh;
+        justify-content: center;
+        min-height: 60vh;
+        gap: 30px;
+    }
+
+    .barra-de-progresso {
+        width: 100px;
+        height: 20px;
+        margin: 5%;
+        border: medium solid black;
+        background: linear-gradient(to right, green 0%, green 20%, grey 20%);
+    }
+
+    .button {
+        background-color: #f2b749;
+        transition-duration: 0.4s;
+        color: black;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 170px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-top: 10%;
+        margin-left: 25%;
+        font-size: 1.2em;
+        font-weight: bold;
+        
+    }
+
+    .button-voltar {
+        background-color: #f2b749;
+        width: 170px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 11px 35px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+
+        position: absolute;
+        left: 60vh;
+        bottom: -100px;
+        right: 100vh;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .button:active {
+        background-color: #f2b749;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button:hover {
+        background-color: #ff9800;
+        color: #ffffff
+    }
+
+    .button-voltar:active {
+        background-color: #f2b749;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button-voltar:hover {
+        background-color: #ff9800;
+        color: #ffffff
+    }
+
+    .button-green {
+        background-color: #8bc34a;
+        width: 170px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 11px 35px;
+        text-align: center;
+        text-decoration: none;
+
+        position: absolute;
+        left: 90vh;
+        bottom: -100px;
+        right: 100vh;
+    }
+
+
+    .button-green:active {
+        background-color: #41B068;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button-green:hover {
+        background-color: #41B068;
+        color: #ffffff
+    }
+
+    form {
+        display: flexbox;
+        padding: 1cm;
+        border-radius: 2%;
+        background-color: #ffff;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        min-height: 50vh;
+        flex-direction: column;
+        position: absolute;
+        padding-top: 0px;
+    }
+
+    .img-client{
+        border-radius: 15px;
+        border: 2px solid black;
+    }       
+
+    .form-position {
+        position: absolute;
+        left: 500px;
+        top: 40px;
+    }
+
+    .form-position-1 {
+        position: absolute;
+        left: 500px;
+        top: 160px;
+    }
+
+    .form-position-2 {
+        position: absolute;
+        left: 500px;
+        top: 270px;
+    }
+
+    .form-position-3 {
+        position: absolute;
+        top: 390px;
+        
+    }
+
+    .button-position{
+        position: absolute;
+        right: 450px;
+        top: 450px;
+    }
+
+  

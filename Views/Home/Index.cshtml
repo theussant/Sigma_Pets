@@ -2,6 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
+<link rel="stylesheet" href="~/css/Home.css">
 
 <div class="container-zero">
     <img align="left" class="img-home" src="https://images.unsplash.com/photo-1593270379182-fe1b1f6d67e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80" alt="babidi" width="250" height="300">
@@ -82,161 +83,10 @@
         
         <h2 class="container-four__h2">E aí! O que achou?</h2>
         <br>
-        <h4 class="container-four__h4">Gostaríamos de receber seu feedback sobre  nosso serviço!</h4>
+        <h4 class="container-four__h4">Gostaríamos de receber seu feedback sobre  nosso pethsop! Adoramos a sua visita!</h4>
         <br>
-        <a  role="button" class="button container-four__a" asp-controller="Home" asp-action="Contatos">Veja Mais!</a>
+        <a  role="button" class="button-container-four__a" asp-controller="Home" asp-action="Contatos">Fale com a gente!</a>
     </div>
 </div>
 
-<style>
-    * {
-        font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .container-zero {
-        display: flex;
-        padding: 1cm;
-        padding-bottom: 0%;
-        border-radius: 15px;
-        border: 2px solid black;
-        background-color: #ffff;
-        height: 60vh;
-        min-height: 60vh;
-        gap: 30px;
-    }
-    .container-one {
-        display: flexbox;
-        padding: 1cm;
-        border-radius: 15px;
-        border: 2px solid black;
-        background-color: #ffff;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-        min-height: 80vh;
-        flex-direction: column;
-        gap: 30px;
-    }
     
-    .container-two {
-        display: flexbox;
-        padding: 1cm;
-        border-radius: 15px;
-        border: 2px solid black;
-        background-color: #ffff;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-        min-height: 80vh;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .container-three {
-        display: flexbox;
-        padding: 1cm;
-        border-radius: 15px;
-        border: 2px solid black;
-        background-color: #ffff;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-        min-height: 80vh;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .container-four {
-        display: flex;
-        padding: 1cm;
-        border-radius: 15px;
-        border: 2px solid black;
-        background-color: #ffff;
-        height: 60vh;
-        justify-content: center;
-        min-height: 60vh;
-        gap: 30px;
-    }
-
-     .button {
-        background-color: #f2b749;
-        transition-duration: 0.4s;
-        border: 2px solid black;
-        color: black;
-        font-weight: bold;
-        padding: 12px 32px;
-        text-align: center;
-        text-decoration: none;
-        margin:0 auto; 
-        width:200px;
-        border-radius: 10px;
-        font-size: 15px;
-        font-size: 1.2em;
-    }
-
-    h2{
-        font-weight: bold;
-    }
-
-    .button:active {
-        background-color: #f2b749;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-    }
-
-    .button:hover {
-        background-color: #ff9800;
-        color: #ffffff
-    }
-    .img-home {
-        /* AQUI VOCÊ AJUSTA A MARGIN */
-        margin-left:30px;
-        border-radius: 15px;
-        border: 2px solid black;
-    }
-    .servico-img{
-        border-radius: 15px;
-        border: 2px solid black;
-    }
-    .img-animais{
-        border-radius: 15px;
-        border: 2px solid black;
-    }
-    .home-text {
-        margin-top: 5%;
-        line-height: 1.5em;
-        width:100%;
-        max-width:550px;
-        display:block;
-        text-align: justify;
-        letter-spacing: 0.5px;   
-    }
-
-    .container-texts {
-        display: flex;
-        flex-direction: column;
-        align-items:center ;
-        margin: 0 auto;
-    }
-    .container-four__h2 {
-        text-align: center;
-        font-weight: bold;
-      }
-      .container-four__h4 {
-        width:100%;
-        max-width:550px;
-        text-align: justify;
-        line-height: 1.1em;
-        letter-spacing: 0.5px;
-      }
-    .container-four__texts {
-        margin:0 auto;
-        display:flex;
-        flex-direction: column;
-        gap:20px;
-    }
-    
-</style>
